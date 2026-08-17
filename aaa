@@ -1,5 +1,5 @@
 implementation "org.springdoc:springdoc-openapi-starter-webflux-ui:3.0.3"
-
+implementation 'io.swagger.core.v3:swagger-annotations-jakarta'
 
 /v3/api-docs
 /swagger-ui.html
