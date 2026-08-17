@@ -6,3 +6,22 @@ implementation 'io.swagger.core.v3:swagger-annotations-jakarta'
 
 
 example = "[\"2025-06-01\", \"2025-06-02\", \"2025-06-04\"]"
+
+
+
+@Operation(
+    summary = "",
+    parameters = {
+        @Parameter(
+            name = "",
+            in = ParameterIn.HEADER,
+            required = true,
+            example = "eyJhbGciOi..."
+        ),
+        @Parameter(
+            name = "",
+            in = ParameterIn.HEADER,
+            example = "19.432608"
+        
+    }
+)
