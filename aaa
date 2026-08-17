@@ -3,3 +3,6 @@ implementation 'io.swagger.core.v3:swagger-annotations-jakarta'
 
 /v3/api-docs
 /swagger-ui.html
+
+
+example = "[\"2025-06-01\", \"2025-06-02\", \"2025-06-04\"]"
