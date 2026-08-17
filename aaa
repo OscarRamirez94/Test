@@ -1,0 +1,11 @@
+
+1. Estoy usando Spring WebFlux y Reactor.
+2. No usar "block()".
+3. No usar "subscribe()" manual dentro del service/use case.
+4. Ejecutar los dos servicios en paralelo si no dependen entre sí.
+5. Usar composición reactiva, preferentemente "Mono.zip()".
+6. Construir el objeto final únicamente cuando ambos servicios hayan respondido.
+7. Evitar modificar el mismo objeto desde dos flujos asíncronos.
+8. Manejar correctamente "Mono.empty()", errores y timeouts.
+9. Indicarme exactamente qué parte del código actual provoca que pueda llegar como "null".
+10. Devuélveme el código corregido completo.
